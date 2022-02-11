@@ -1,0 +1,176 @@
+html{
+    font-family: 'open-sans' , sans-serif;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: top; 
+    padding: 5px;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.space{
+    width:45%;
+}
+.heroImg{
+    height: 300px;
+    padding: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    display:inline-flex;
+    background-color: #C8C2C2;
+    color: rgb(7, 8, 8);
+    width: 100%;
+    align-items: center;
+}
+.button{
+    padding: 10px;
+    width: 150px;
+}
+.words{
+    padding: 15px;
+    width: 300px;
+}
+.links{
+    right: 10px
+}
+.name{
+    display: flex;
+    align-items: center;
+}
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+.card{
+    width: 400px;
+    padding: 15px;
+}
+.workGrid{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    align-content: center;
+    grid-template-rows: 40px 40px 80px 40px;
+    padding: 40px;
+
+}
+.workThumb{
+    grid-row: 1 / 5
+}
+.workName{
+    padding: 0, auto;
+}
+.workType{
+    padding: 0, auto;
+}
+.workDef{
+    width: 100%;
+}
+.projectsLink{
+    text-align: center;
+    color: blue;
+}
+.tools{
+    display: inline-flex;
+    flex-direction: row;
+    padding-left: 70px;
+    width: auto;
+    align-self: center;
+}
+.toolList{
+    width: 500px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.title{
+    text-align: center;
+    background-color: rgb(189, 184, 184);
+    color:rgb(49, 46, 46)
+}
+.mySkills{
+    background-color: #4A6FA7;
+    color: #D8D8D8
+}
+.svg-icon {
+    width: 6em;
+    height: 6em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #d4d8dd;
+  }
+  
+  .svg-icon circle {
+    stroke: #c6ccd4;
+    stroke-width: 1;
+  }
+  .modal {
+    /*display: none; */
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: #6784CE; 
+    background-color: rgba(103, 132, 206, 0.25); /* Fallback color */
+  }
+  .ui-dialog {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+  }
+  .ui-dialog-titlebar-close {
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.ui-widget-overlay
+{
+  opacity: .50 !important; /* Make sure to change both of these, as IE only sees the second one */
+  filter: Alpha(Opacity=50) !important;
+
+  background: rgb(50, 50, 50) !important; /* This will make it darker */
+}
+  
+  @media only screen and (max-width: 600px){
+  
+    .heroImg{
+    flex-direction: column;
+    height: 600px;
+   }
+   .photo {
+       height: 150px;
+   }
+   .workGrid{
+    display: grid;
+    height: 400px;
+    grid-template-columns: 250px;
+    align-content: center;
+    grid-template-rows: 40px 40px 80px 40px;
+    padding: 40px;
+}
+    .flexContainer {
+        flex-direction: column;
+        width: 95%;
+    }
+  }

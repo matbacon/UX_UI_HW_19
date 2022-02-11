@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matt Bacon</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header class="nav">
+        <div class="inline-block">
+            <img src="./images/Logo.png" alt="an unoriginal logo featuring a M and a B. ">
+        </div> 
+        <p class="name">Matt Bacon</p>   
+        <div class="space"></div>    
+        <nav>
+                <ul class="links">
+                    <li class="inline-block">About</li>
+                    <li class="inline-block">Skills</li>
+                    <li class="inline-block">Projects</li>
+                    <li class="inline-block">Contact</li>
+                </ul>
+            </nav>
+    </header>
+<section class="heroImg">
+   <div>
+        <img class="photo" src="./images/cropped.png" alt="matty b fo realz" height="300px">
+    </div>
+    <div class="words">
+        <h1>Hello! I am Matt Bacon</h1>
+         <p>I am a freelance UX/UI generalist based out of Minneapolis, MN. </p>
+         <p>I specialize in Research and UI design. My skills include problem definition, Figma, and leadership. I obsess about organization and designing solutions for everyone.</p>
+         <button class="button" id="myBtn">Download Resume</button>
+         
+    </div> 
+</section>
+<!--My UX work section using CSS Grid-->
+<section class="myWork">
+    <h1 class="title">My Work</h1>
+    <div>
+        <div class="workGrid">
+            <img class="workThumb" img src="./images/ConveirgeLogo.png" alt="convierge logo" height="200px">
+            <div>
+                <h1 class="workName">Convierge</h1>
+                <h3 class="workType">Mobile Prototype</h3>
+                <p class="workDef">A mobile app developed to assit multi-family vacationers make decicions using ranked choice voting. </p>
+                <button class="button">Go to Case Study</button>
+            </div>
+        </div>
+        <div class="workGrid">
+            <img class="workThumb" src="./images/ArlingtonPic.png" alt="arlington house mobile homepage" height="200px">
+            <div>
+                <h1 class="workName">Arlington House</h1>
+                <h3 class="workType">RWD Non-profit Redesign</h3>
+                <p class="workDef">Non-profit organization website redesign to increase donations through a more engaging desktop and mobile design.</p>
+                <button class="button">Go to Case Study</button>
+            </div>
+        </div>
+    </div>
+    <h3 class="projectsLink">View All Projects</h3>
+</section>
+<!--My UX Skills section using CSS flex-->
+<section class="mySkills">
+    <h1 class="title">My UX Skills</h1>
+    <div class="flexContainer">
+        <div class="card">
+            <svg class="svg-icon" viewBox="0 0 20 20" alt="user icon">
+                <path d="M15.573,11.624c0.568-0.478,0.947-1.219,0.947-2.019c0-1.37-1.108-2.569-2.371-2.569s-2.371,1.2-2.371,2.569c0,0.8,0.379,1.542,0.946,2.019c-0.253,0.089-0.496,0.2-0.728,0.332c-0.743-0.898-1.745-1.573-2.891-1.911c0.877-0.61,1.486-1.666,1.486-2.812c0-1.79-1.479-3.359-3.162-3.359S4.269,5.443,4.269,7.233c0,1.146,0.608,2.202,1.486,2.812c-2.454,0.725-4.252,2.998-4.252,5.685c0,0.218,0.178,0.396,0.395,0.396h16.203c0.218,0,0.396-0.178,0.396-0.396C18.497,13.831,17.273,12.216,15.573,11.624 M12.568,9.605c0-0.822,0.689-1.779,1.581-1.779s1.58,0.957,1.58,1.779s-0.688,1.779-1.58,1.779S12.568,10.427,12.568,9.605 M5.06,7.233c0-1.213,1.014-2.569,2.371-2.569c1.358,0,2.371,1.355,2.371,2.569S8.789,9.802,7.431,9.802C6.073,9.802,5.06,8.447,5.06,7.233 M2.309,15.335c0.202-2.649,2.423-4.742,5.122-4.742s4.921,2.093,5.122,4.742H2.309z M13.346,15.335c-0.067-0.997-0.382-1.928-0.882-2.732c0.502-0.271,1.075-0.429,1.686-0.429c1.828,0,3.338,1.385,3.535,3.161H13.346z"></path>
+            </svg>
+            <h3>User Research</h3>
+            <h4>Developing and facilitating interview plans to produce findings that aim to better define the problem</h4>
+            <p>Techniques Known: user interviews, user surveys, protopersonas, user personas, affinity diagrams, ect.. </p>
+        </div>
+        <div class="card">
+            <svg class="svg-icon" viewBox="0 0 20 20" alt="house icon">
+                <path d="M18.121,9.88l-7.832-7.836c-0.155-0.158-0.428-0.155-0.584,0L1.842,9.913c-0.262,0.263-0.073,0.705,0.292,0.705h2.069v7.042c0,0.227,0.187,0.414,0.414,0.414h3.725c0.228,0,0.414-0.188,0.414-0.414v-3.313h2.483v3.313c0,0.227,0.187,0.414,0.413,0.414h3.726c0.229,0,0.414-0.188,0.414-0.414v-7.042h2.068h0.004C18.331,10.617,18.389,10.146,18.121,9.88 M14.963,17.245h-2.896v-3.313c0-0.229-0.186-0.415-0.414-0.415H8.342c-0.228,0-0.414,0.187-0.414,0.415v3.313H5.032v-6.628h9.931V17.245z M3.133,9.79l6.864-6.868l6.867,6.868H3.133z"></path>
+            </svg>
+            <h3>Information Architecture</h3>
+            <h4>Outlining and organizing the content of a product to assure a logical and easy method of usability.</h4>
+            <p>Techniques Known: User interviews, card sorting, UX writing, taxonomy.</p>
+        </div>
+        <div class="card">
+            <svg class="svg-icon" viewBox="0 0 20 20" alt="webpage icon">
+                <path d="M17.701,3.919H2.299c-0.223,0-0.405,0.183-0.405,0.405v11.349c0,0.223,0.183,0.406,0.405,0.406h15.402c0.224,0,0.405-0.184,0.405-0.406V4.325C18.106,4.102,17.925,3.919,17.701,3.919 M17.296,15.268H2.704V7.162h14.592V15.268zM17.296,6.352H2.704V4.73h14.592V6.352z M5.947,5.541c0,0.223-0.183,0.405-0.405,0.405H3.515c-0.223,0-0.405-0.182-0.405-0.405c0-0.223,0.183-0.405,0.405-0.405h2.027C5.764,5.135,5.947,5.318,5.947,5.541"></path>
+            </svg>
+            <h3>UI Design</h3>
+            <h4>Creating functional, familiar designs that increase usability and make the interaction enjoyable.</h4>
+            <p>Techniques Known: Grids, typography, color theory, iconography, and responsive web design.</p>
+        </div>
+    </div>
+    <div class="tools">
+    <h3 >Tools I Know:</h3><p class="toolList">Paper and Pencil, Figma, InVision, Google Drive, Miro, Zeplin</p>
+    </div>
+</section>
+<footer>
+    <img src="./images/Logo.png" alt="an unoriginal logo featuring a M and a B. "><p>Matt Bacon</p>
+    <div class="space"></div>
+    <ul>
+        <li class="inline-block">About</li>
+        <li class="inline-block">Skills</li>
+        <li class="inline-block">Projects</li>
+        <li class="inline-block">Contact</li>
+    </ul>
+</footer>  
+<div id="myModal" class="modal" title="Thank you for your interest!">
+    <div class="modal-content">
+        <!--<span class="close">&times;</span>-->
+        <p>Please proceed to download my resume by clicking on the link below.</p>
+        <link href="resume.doc">
+    </div>
+</div>        
+<script src="./js/script.js"></script>
+</body>
+</html>
